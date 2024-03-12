@@ -1,0 +1,500 @@
+# sleep: orange
+# work: blue
+# social: purple
+# other: gray
+
+allotment_house:
+  color: gray
+  general: other
+  key: building
+  value: allotment_house
+apartments:
+  color: orange
+  general: sleep
+  key: building
+  value: apartments
+bakehouse:
+  color: blue
+  general: work
+  key: building
+  value: bakehouse
+barn:
+  color: blue
+  general: work
+  key: building
+  value: barn
+barracks:
+  color: orange
+  general: sleep
+  key: building
+  value: barracks
+beach_hut:
+  color: gray
+  general: other
+  key: building
+  value: beach_hut
+boathouse:
+  color: gray
+  general: other
+  key: building
+  value: boathouse
+bridge:
+  color: blue
+  general: work
+  key: building
+  value: bridge
+bungalow:
+  color: orange
+  general: sleep
+  key: building
+  value: bungalow
+bunker:
+  color: gray
+  general: other
+  key: building
+  value: bunker
+cabin:
+  color: orange
+  general: sleep
+  key: building
+  value: cabin
+carport:
+  color: gray
+  general: other
+  key: building
+  value: carport
+castle:
+  color: gray
+  general: other
+  key: building
+  value: castle
+cathedral:
+  color: purple
+  general: social
+  key: building
+  value: cathedral
+chapel:
+  color: purple
+  general: social
+  key: building
+  value: chapel
+church:
+  color: purple
+  general: social
+  key: building
+  value: church
+civic:
+  color: blue
+  general: work
+  key: building
+  value: civic
+college:
+  color: blue
+  general: work
+  key: building
+  value: college
+commercial:
+  color: blue
+  general: work
+  key: building
+  value: commercial
+conservatory:
+  color: blue
+  general: work
+  key: building
+  value: conservatory
+construction:
+  color: gray
+  general: other
+  key: building
+  value: construction
+container:
+  color: gray
+  general: other
+  key: building
+  value: container
+cowshed:
+  color: blue
+  general: work
+  key: building
+  value: cowshed
+detached:
+  color: orange
+  general: sleep
+  key: building
+  value: detached
+digester:
+  color: gray
+  general: other
+  key: building
+  value: digester
+dormitory:
+  color: orange
+  general: sleep
+  key: building
+  value: dormitory
+farm:
+  color: orange
+  general: sleep
+  key: building
+  value: farm
+farm_auxiliary:
+  color: blue
+  general: work
+  key: building
+  value: farm_auxiliary
+fire_station:
+  color: blue
+  general: work
+  key: building
+  value: fire_station
+garage:
+  color: gray
+  general: other
+  key: building
+  value: garage
+garages:
+  color: gray
+  general: other
+  key: building
+  value: garages
+gatehouse:
+  color: blue
+  general: work
+  key: building
+  value: gatehouse
+ger:
+  color: orange
+  general: sleep
+  key: building
+  value: ger
+government:
+  color: blue
+  general: work
+  key: building
+  value: government
+grandstand:
+  color: purple
+  general: social
+  key: building
+  value: grandstand
+greenhouse:
+  color: blue
+  general: work
+  key: building
+  value: greenhouse
+guardhouse:
+  color: gray
+  general: other
+  key: building
+  value: guardhouse
+hangar:
+  color: gray
+  general: other
+  key: building
+  value: hangar
+hospital:
+  color: blue
+  general: work
+  key: building
+  value: hospital
+hotel:
+  color: orange
+  general: sleep
+  key: building
+  value: hotel
+house:
+  color: orange
+  general: sleep
+  key: building
+  value: house
+houseboat:
+  color: orange
+  general: sleep
+  key: building
+  value: houseboat
+hut:
+  color: gray
+  general: other
+  key: building
+  value: hut
+industrial:
+  color: blue
+  general: work
+  key: building
+  value: industrial
+kindergarten:
+  color: blue
+  general: work
+  key: building
+  value: kindergarten
+kingdom_hall:
+  color: purple
+  general: social
+  key: building
+  value: kingdom_hall
+kiosk:
+  color: blue
+  general: work
+  key: building
+  value: kiosk
+lifecycle tagging:
+  color: gray
+  general: other
+  key: building
+  value: lifecycle tagging
+livestock:
+  color: blue
+  general: work
+  key: building
+  value: livestock
+military:
+  color: gray
+  general: other
+  key: building
+  value: military
+monastery:
+  color: purple
+  general: social
+  key: building
+  value: monastery
+mosque:
+  color: purple
+  general: social
+  key: building
+  value: mosque
+museum:
+  color: purple
+  general: work
+  key: building
+  value: museum
+office:
+  color: blue
+  general: work
+  key: building
+  value: office
+outbuilding:
+  color: gray
+  general: other
+  key: building
+  value: outbuilding
+pagoda:
+  color: purple
+  general: other
+  key: building
+  value: pagoda
+parking:
+  color: gray
+  general: other
+  key: building
+  value: parking
+pavilion:
+  color: purple
+  general: social
+  key: building
+  value: pavilion
+presbytery:
+  color: purple
+  general: social
+  key: building
+  value: presbytery
+public:
+  color: blue
+  general: work
+  key: building
+  value: public
+quonset_hut:
+  color: gray
+  general: other
+  key: building
+  value: quonset_hut
+religious:
+  color: purple
+  general: social
+  key: building
+  value: religious
+residential:
+  color: orange
+  general: sleep
+  key: building
+  value: residential
+retail:
+  color: blue
+  general: work
+  key: building
+  value: retail
+riding_hall:
+  color: purple
+  general: social
+  key: building
+  value: riding_hall
+roof:
+  color: gray
+  general: other
+  key: building
+  value: roof
+ruins:
+  color: gray
+  general: other
+  key: building
+  value: ruins
+school:
+  color: blue
+  general: work
+  key: building
+  value: school
+semidetached_house:
+  color: orange
+  general: sleep
+  key: building
+  value: semidetached_house
+service:
+  color: gray
+  general: other
+  key: building
+  value: service
+shed:
+  color: gray
+  general: other
+  key: building
+  value: shed
+shrine:
+  color: purple
+  general: social
+  key: building
+  value: shrine
+silo:
+  color: gray
+  general: other
+  key: building
+  value: silo
+slurry_tank:
+  color: blue
+  general: work
+  key: building
+  value: slurry_tank
+sports_centre:
+  color: purple
+  general: social
+  key: building
+  value: sports_centre
+sports_hall:
+  color: purple
+  general: social
+  key: building
+  value: sports_hall
+stable:
+  color: blue
+  general: work
+  key: building
+  value: stable
+stadium:
+  color: purple
+  general: social
+  key: building
+  value: stadium
+static_caravan:
+  color: orange
+  general: sleep
+  key: building
+  value: static_caravan
+stilt_house:
+  color: orange
+  general: sleep
+  key: building
+  value: stilt_house
+storage_tank:
+  color: gray
+  general: other
+  key: building
+  value: storage_tank
+sty:
+  color: blue
+  general: work
+  key: building
+  value: sty
+supermarket:
+  color: blue
+  general: work
+  key: building
+  value: supermarket
+synagogue:
+  color: purple
+  general: social
+  key: building
+  value: synagogue
+tech_cab:
+  color: gray
+  general: other
+  key: building
+  value: tech_cab
+temple:
+  color: purple
+  general: social
+  key: building
+  value: temple
+tent:
+  color: gray
+  general: other
+  key: building
+  value: tent
+terrace:
+  color: orange
+  general: sleep
+  key: building
+  value: terrace
+toilets:
+  color: blue
+  general: work
+  key: building
+  value: toilets
+tower:
+  color: gray
+  general: other
+  key: building
+  value: tower
+train_station:
+  color: blue
+  general: work
+  key: building
+  value: train_station
+transformer_tower:
+  color: gray
+  general: other
+  key: building
+  value: transformer_tower
+transportation:
+  color: blue
+  general: work
+  key: building
+  value: transportation
+tree_house:
+  color: orange
+  general: sleep
+  key: building
+  value: tree_house
+trullo:
+  color: orange
+  general: sleep
+  key: building
+  value: trullo
+university:
+  color: blue
+  general: work
+  key: building
+  value: university
+warehouse:
+  color: blue
+  general: work
+  key: building
+  value: warehouse
+water_tower:
+  color: gray
+  general: other
+  key: building
+  value: water_tower
+windmill:
+  color: gray
+  general: other
+  key: building
+  value: windmill

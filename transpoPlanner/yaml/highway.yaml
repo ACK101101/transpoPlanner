@@ -1,0 +1,168 @@
+bridleway:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: bridleway
+bus_guideway:
+  color: yellow
+  general: bus
+  key: highway
+  speed: 32200
+  value: bus_guideway
+busway:
+  color: yellow
+  general: bus
+  key: highway
+  speed: 32200
+  value: busway
+corridor:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: corridor
+cycleway:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: cycleway
+escape:
+  color: gray
+  general: other
+  key: highway
+  speed: 16100
+  value: escape
+footway:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: footway
+living_street:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: living_street
+motorway:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: motorway
+motorway_link:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: motorway_link
+path:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: path
+pedestrian:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: pedestrian
+primary:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: primary
+primary_link:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: primary_link
+raceway:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: raceway
+residential:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: residential
+road:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: road
+secondary:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: secondary
+secondary_link:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: secondary_link
+service:
+  color: gray
+  general: other
+  key: highway
+  speed: 16100
+  value: service
+steps:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: steps
+tertiary:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: tertiary
+tertiary_link:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: tertiary_link
+track:
+  color: gray
+  general: other
+  key: highway
+  speed: 16100
+  value: track
+trunk:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: trunk
+trunk_link:
+  color: red
+  general: car
+  key: highway
+  speed: 48300
+  value: trunk_link
+unclassified:
+  color: gray
+  general: other
+  key: highway
+  speed: 16100
+  value: unclassified
+via_ferrata:
+  color: green
+  general: pedbike
+  key: highway
+  speed: 16100
+  value: via_ferrata
