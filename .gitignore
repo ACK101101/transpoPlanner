@@ -1,0 +1,5 @@
+cache/
+checkpoints/
+lightning_logs/
+logs/
+osm_dataset/
