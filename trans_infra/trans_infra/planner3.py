@@ -17,7 +17,6 @@ from trans_infra.trans_infra.gnn import EdgeRegressionModel
 from trans_infra.trans_infra.simulator import run_simulation_parallel
 
 #! fix viz
-#! batch norm on DQN?
 #? only 1 action at a time, test other 3 options to get better labels?
 
 class DQNLightning(pl.LightningModule):
@@ -158,10 +157,13 @@ class DQNLightning(pl.LightningModule):
         
     def compute_and_store_rewards(self, buffer, curr_score_df, next_score_df, data, 
                                   pred_action_val, next_state):
+        next_state_detach = next_state.detach()
         for j in range(len(curr_score_df)):
             reward = next_score_df["social_score"][j] - curr_score_df["social_score"][j]
             done = False if j != len(curr_score_df)-1 else True
-            buffer.append((data, pred_action_val, reward, next_state, done))
+            buffer.append((data, pred_action_val, reward, next_state_detach, done))
+        del next_state
+        
         return buffer
     
     def sample_env(self, data, isNew=False):
@@ -186,8 +188,6 @@ class DQNLightning(pl.LightningModule):
         
         self.memory = self.compute_and_store_rewards(self.memory, curr_score_df, next_score_df,
                                                      data, actions_sum, next_state)
-        
-        del next_state
         
         self.log('mean rewards', next_score_df['social_score'].mean() - curr_score_df['social_score'].mean())
 
@@ -238,7 +238,7 @@ class DQNLightning(pl.LightningModule):
         while len(self.memory) < self.batch_size:
             self.get_data_from_sim(data)
         
-        if self.global_step % 4 == 0:
+        if self.global_step % 8 == 0:
             self.get_data_from_sim(data)
 
         replay_batch = random.sample(self.memory, self.batch_size)
@@ -267,13 +267,13 @@ class DQNLightning(pl.LightningModule):
         
         if self.global_step % 25 == 0:
             self.epsilon = self.compute_eps()
+            gc.collect()
+            torch.mps.empty_cache()
+            ("cleared up space?")
         
         if self.global_step % 50 == 0:
             self.update_target_model()
             print(" updated target model")
-            gc.collect()
-            torch.mps.empty_cache()
-            ("cleared up space?")
         
         print("done with train step")
         output = {'loss': loss, 'dqn_train_loss': dqn_loss, 'edge_train_loss': edge_loss}
